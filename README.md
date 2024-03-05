@@ -40,7 +40,7 @@ Dato che la prima versione è anche in grado di ordinare array di puntatori (pas
 
 ### Unit Testing
 
-Implementare gli unit-test per la libreria secondo le indicazioni suggerite nel documento Unit Testing.
+Implementare gli unit-test.
 
 ### Uso della libreria di ordinamento implementata
 
@@ -74,18 +74,6 @@ void sort_records(const char *infile, const char *outfile, size_t k, size_t fiel
 - `field` può valere 1, 2 o 3 e indica quale dei tre campi deve essere usato per ordinare i record.
 
 Si misurino i tempi di risposta variando il valore di `k`, per ciascuno dei tre field che si possono usare come chiave di ordinamento, e si produca una breve relazione in cui si riportano i risultati ottenuti insieme a un loro commento. Dimostrare nella relazione come il valore di `k` dovrebbe essere scelto nella pratica. Nel caso l'ordinamento si protragga per più di 10 minuti potete interrompere l'esecuzione e riportare un fallimento dell'operazione. I risultati sono quelli che vi sareste aspettati? Se sì, perché? Se no, fate delle ipotesi circa il motivo per cui l'algoritmo non funziona come vi aspettate, verificatele e riportate quanto scoperto nella relazione. I risultati dipendono dal campo usato come chiave di ordinamento?
-
-**Si ricorda che il file `records.csv` NON DEVE ESSERE OGGETTO DI COMMIT SU GIT!**
-
-### Condizioni per la consegna:
-
-- Creare una sottocartella chiamata ``ex1`` all'interno del repository.
-- La consegna deve obbligatoriamente contenere un `Makefile`. Il `Makefile` deve produrre all'interno di ``ex1/build`` un file eseguibile chiamato ``main_ex1``.
-- ``main_ex1`` deve ricevere come parametri il percorso del file CSV contenente i record da ordinare e del file in cui salvare i record ordinati. Per esempio:
-
-```
-$ ./main_ex1 /tmp/data/records.csv /tmp/data/sorted.csv
-```
 
 ## Esercizio 2 - SkipList
 
@@ -222,7 +210,7 @@ searchSkipList(list, item)
 
 ### Unit Testing
 
-Implementare gli unit-test per tutte le operazioni della *SkipList* secondo le indicazioni suggerite nel documento Unit Testing.
+Implementare gli unit-test per tutte le operazioni della *SkipList*.
 
 ### Uso delle funzioni implementate
 
@@ -250,26 +238,6 @@ void find_errors(const char *dictfile, const char *textfile, size_t max_height);
 
 Si sperimenti il funzionamento dell'applicazione considerando diversi valori per il parametro ``max_height``, riportando in una breve relazione (circa una pagina) i risultati degli esperimenti.
 
-**Si ricorda che i file `dictionary.txt` e `correctme.txt` NON DEVONO ESSERE OGGETTO DI COMMIT SU GIT!**
-
-### Condizioni per la consegna:
-
-- Creare una sottocartella chiamata ``ex2`` all'interno del repository.
-- La consegna deve obbligatoriamente contenere un `Makefile`. Il `Makefile` deve produrre all'interno di ``ex2/build`` un file eseguibile chiamato ``main_ex2``.
-- ``main_ex2`` deve ricevere come parametri il percorso del dizionario da usare come riferimento e il file da correggere, in quest'ordine. Il risultato va stampato a schermo, con le parole ordinate come nel file da correggere. Per esempio:
-
-```
-$ ./main_ex2 /tmp/data/dictionary.txt /tmp/data/correctme.txt
-cinqve
-perpeteva
-squola
-domandrono
-vuolessi
-scrissi
-corpito
-wita
-```
-
 ## Esercizio 3 - PriorityQueue
 
 ### Linguaggio richiesto: Java
@@ -293,11 +261,7 @@ La classe `PriorityQueue<E>` che implementa l'interfaccia dovrebbe avere almeno 
 
 ### Unit Testing
 
-Implementare gli unit-test degli algoritmi secondo le indicazioni suggerite nel documento [Unit Testing](UnitTesting.md).
-
-### Condizioni per la consegna:
-
-- Creare una sottocartella chiamata ``ex3-4`` all'interno del repository, che conterrà tutte le classi relative a questo esercizio e al seguente, compresi i file di progetto relativi all'IDE Java che avete utilizzato.
+Implementare gli unit-test degli algoritmi.
 
 ## Esercizio 4 - Grafi sparsi e foreste ricoprenti minime
 
@@ -339,7 +303,7 @@ _(*)_ quando il grafo è veramente sparso, assumendo che l'operazione venga effe
 
 ### Unit Testing
 
-Implementare gli unit-test degli algoritmi secondo le indicazioni suggerite nel documento [Unit Testing](UnitTesting.md).
+Implementare gli unit-test.
 
 ### Uso della libreria che implementa la struttura dati Grafo
 
