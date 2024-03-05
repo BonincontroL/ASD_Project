@@ -1,0 +1,14 @@
+# Ignora tutti i file con estensione .csv
+*.csv
+
+# Ignora tutti i file con estensione .txt
+*.txt
+
+# Ignora la cartella bin
+/bin/
+
+# Ignora la cartella .vscode
+.vscode/
+
+# Ignora .class
+*.class
