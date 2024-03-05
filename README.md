@@ -1,9 +1,4 @@
-# Laboratorio per il corso di Algoritmi e Strutture Dati: regole d'esame, indicazioni generali e suggerimenti, consegne per gli esercizi
-
-
-## Linguaggio in cui sviluppare il laboratorio
-
-Gli esercizi vanno implementati utilizzando il linguaggio C o Java come precisato di seguito:
+# Laboratorio per il corso di Algoritmi e Strutture Dati
 
 - Esercizio 1: C
 - Esercizio 2: C
@@ -375,15 +370,5 @@ Ogni record contiene i seguenti dati:
 - `place2`: (tipo stringa) nome della località "destinazione" (la stringa può contenere spazi ma non può contenere virgole);
 - `distance`: (tipo float) distanza in metri tra le due località.
 
-**Note:**
 
-- Nel caso in cui il grafo sia costituito da una sola componente connessa, l'algoritmo restituirà un albero. Nel caso in cui, invece, vi siano più componenti connesse, l'algoritmo restituirà una foresta costituita dai minimi alberi ricoprenti di ciascuna componente connessa.
-- Potete intrepretare le informazioni presenti nelle righe del file come   archi **non diretti** (per cui probabilmente vorrete inserire nel vostro grafo sia l'arco di andata che quello di ritorno a fronte di ogni riga letta).
-- Il file è stato creato a partire da un dataset poco accurato. I dati riportati contengono inesattezze e imprecisioni.
-- Un'implementazione corretta dell'algoritmo di Prim, eseguita sui dati contenuti nel file `italian_dist_graph.csv`, dovrebbe determinare una minima foresta ricoprente con 18.640 nodi, 18.637 archi (non orientati) e di peso complessivo di circa 89.939,913 Km.
 
-**Si ricorda che il file `italian_dist_graph.csv` NON DEVE ESSERE OGGETTO DI COMMIT SU GIT!**
-
-### Condizioni per la consegna:
-
-- Creare una sottocartella chiamata ``ex3-4`` all'interno del repository, che conterrà tutte le classi relative a questo esercizio e al precedente, compresi i file di progetto relativi all'IDE Java che avete utilizzato.
